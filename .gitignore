@@ -1,6 +1,4 @@
-.env
 __pycache__
-.vscode
 # Ignore everything in the generated directory
 /generated/*
 
@@ -9,3 +7,5 @@ __pycache__
 
 .idea
 /.idea/
+config.bat
+node_modules
