@@ -1,7 +1,5 @@
-.env
 env
 __pycache__
-.vscode
 .idea
 /.idea/
 
@@ -10,3 +8,5 @@ __pycache__
 
 # Don't ignore .gitkeep files in the generated directory
 !/generated/.gitkeep
+config.bat
+node_modules
