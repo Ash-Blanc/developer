@@ -32,7 +32,7 @@ After the [successful initial v0 launch](https://twitter.com/swyx/status/1657578
 # install
 git clone https://github.com/smol-ai/developer.git
 cd developer
-poetry install # install dependencies. pip install poetry if you need
+uv sync # install dependencies. pip install poetry if you need
 
 # run
 python main.py "a HTML/JS/CSS Tic Tac Toe Game" # defaults to gpt-4-0613
@@ -106,7 +106,7 @@ for file_path in file_paths:
 ### In API mode (via [Agent Protocol](https://github.com/e2b-dev/agent-protocol))
 To start the server run:
 ```bash
-poetry run api
+uv run api
 ```
 or
 ```bash
